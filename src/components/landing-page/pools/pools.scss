@@ -1,0 +1,11 @@
+@import 'src/assets/variables/colors';
+
+.grid-parent {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 3em;
+  .card {
+    width: 100%;
+  }
+}

@@ -1,5 +1,11 @@
 {
   "main-title": "Hlavné mesto slovenskej republiky",
   "landing-page": "Úvodná stránka",
-  "purchase-from": "Objednávkový formulár"
+  "purchase-from": "Objednávkový formulár",
+  "swimming-pools": "Kúpaliská",
+  "swimming-pools-additional": "kde môžeš využívať svoju pemanentku",
+  "single-payment": "Jedna platba, všetky kúpaliská",
+  "single-payment-description": "Zakúp si celosezónnu premanentku a využívaj ju po celé leto na ktoromkoľvek kúpalisku",
+  "proceed-to-buy": "Chcem si zakúpiť permanentku",
+  "occupancy": "obsadenosť"
 }
