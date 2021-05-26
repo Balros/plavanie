@@ -7,5 +7,22 @@
   "single-payment": "Jedna platba, všetky kúpaliská",
   "single-payment-description": "Zakúp si celosezónnu premanentku a využívaj ju po celé leto na ktoromkoľvek kúpalisku",
   "proceed-to-buy": "Chcem si zakúpiť permanentku",
-  "occupancy": "obsadenosť"
+  "occupancy": "obsadenosť",
+  "finish-purchase-title": "Dokončiť nákup",
+  "personal-info": "Osobné údaje",
+  "first-and-last-name": "Meno a priezvisko",
+  "street": "Ulica a popisné číslo",
+  "city": "Mesto",
+  "postal-code": "PSČ",
+  "email": "Email",
+  "phone-number": "Telefónne číslo (voliteľné)",
+  "gdpr-agreement": "Súhlasím so spracovaním osobných údajov",
+  "continue-to-payment": "Pokračovať k platbe",
+  "payment-summary": "Rekapitulácia nákupu",
+  "season-ticket": "Celosezónna permanentka",
+  "season-ticket-description": "Zakúp si celosezónnu permanentku a využívaj ju po celé leto na ktoromkoľvek kúpalisku",
+  "add-child": "Pridať dieťa",
+  "additional-child": "+ 1 dieťa",
+  "additional-child-price": "+ {{childTicketPrice}}€",
+  "regular-price": "{{regularTicketPrice}}€"
 }
