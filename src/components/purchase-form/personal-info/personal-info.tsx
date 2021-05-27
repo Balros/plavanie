@@ -1,12 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import {
-  Button,
-  Input,
-  InputGroup,
-  InputGroupAddon,
-  InputGroupText,
-} from 'reactstrap'
+import { Input, InputGroup, InputGroupAddon, InputGroupText } from 'reactstrap'
 import AddChildInput from '../add-child-input/add-child-input'
 
 interface IPersonalInfo {
