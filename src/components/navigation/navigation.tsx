@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Col, Container, Nav, Navbar, Row } from 'reactstrap'
+import { Container, Nav, Navbar } from 'reactstrap'
 
 import logo from '../../assets/images/ba-logo-white.svg'
 import Routes from '../../routes/routes'

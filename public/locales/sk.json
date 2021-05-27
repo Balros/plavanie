@@ -24,5 +24,13 @@
   "add-child": "Pridať dieťa",
   "additional-child": "+ 1 dieťa",
   "additional-child-price": "+ {{childTicketPrice}}€",
-  "regular-price": "{{regularTicketPrice}}€"
+  "regular-price": "{{regularTicketPrice}}€",
+  "name-required": "Meno je povinné",
+  "street-required": "Ulica je povinná",
+  "city-required": "Mesto je povinné",
+  "email-required": "Email je povinný",
+  "postal-code-required": "PSČ je povinné",
+  "gdpr-required": "Musíte súhlasiť s podmienkami GDPR",
+  "postal-code-length-error": "PSČ musí obsahovať 5 číslic",
+  "phone-number-error": "Zlé telefónne číslo, číslo musí byť vo formáte \"+421...\""
 }

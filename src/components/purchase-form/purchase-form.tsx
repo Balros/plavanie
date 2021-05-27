@@ -1,15 +1,6 @@
 import React, { useCallback, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import {
-  Button,
-  Card,
-  CardBody,
-  CardText,
-  CardTitle,
-  Col,
-  Container,
-  Row,
-} from 'reactstrap'
+import { Button, Col, Container, Row } from 'reactstrap'
 
 import PersonalInfo from './personal-info/personal-info'
 import PaymentSummary from './payment-summary/payment-summary'
@@ -45,9 +36,6 @@ const LandingPage: React.FC<ILandingPage> = () => {
                   includeChild={includeChild}
                   toggleIncludeChild={toggleIncludeChild}
                 />
-                <Button className="d-none d-md-inline-block " color="primary">
-                  {t('continue-to-payment')}
-                </Button>
               </Col>
               <Col md={6}>
                 <PaymentSummary includeChild={includeChild} />
@@ -56,7 +44,11 @@ const LandingPage: React.FC<ILandingPage> = () => {
                   checked={includeChild}
                   toggle={toggleIncludeChild}
                 />
-                <Button className="d-inline-block d-md-none" color="primary">
+                <Button
+                  type="submit"
+                  className="d-inline-block d-md-none"
+                  color="primary"
+                >
                   {t('continue-to-payment')}
                 </Button>
               </Col>

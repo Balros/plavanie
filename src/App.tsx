@@ -1,6 +1,4 @@
-import { useTranslation } from 'react-i18next'
-import { BrowserRouter, Link, Switch, Route } from 'react-router-dom'
-import { Container } from 'reactstrap'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import Navigation from './components/navigation/navigation'
 import LandingPage from './components/landing-page/landing-page'
@@ -11,8 +9,6 @@ import './App.scss'
 import './assets/styles.scss'
 
 function App() {
-  const [t] = useTranslation()
-
   return (
     <div className="App">
       <BrowserRouter>
