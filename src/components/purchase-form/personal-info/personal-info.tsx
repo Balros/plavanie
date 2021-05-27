@@ -8,6 +8,8 @@ import {
   InputGroupText,
 } from 'reactstrap'
 import { useForm } from 'react-hook-form'
+import axios from 'axios'
+
 import AddChildInput from '../add-child-input/add-child-input'
 
 type FormValues = {
@@ -51,15 +53,17 @@ const PersonalInfo: React.FC<IPersonalInfo> = ({
   const postalCodeLengthError = t('postal-code-length-error')
   const phoneNumberError = t('phone-number-error')
 
+  const onSubmit = handleSubmit((data) => {
+    axios.post(`http://postman-echo.com/post`, { data }).then((res) => {
+      console.log(res)
+    })
+  })
+
   return (
     <>
       <h1 className="text-primary fw-bold">{t('finish-purchase-title')}</h1>
       <h4>{t('personal-info')}</h4>
-      <form
-        onSubmit={handleSubmit((data) => {
-          console.log(data)
-        })}
-      >
+      <form onSubmit={onSubmit}>
         <InputGroup className="mb-3">
           <InputGroupAddon addonType="prepend">
             <InputGroupText className="bg-primary">@</InputGroupText>
